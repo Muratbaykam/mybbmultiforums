@@ -1,0 +1,417 @@
+html {
+	font-size:.9em; 
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+
+body {
+	background-color: #E1E1E1;
+	background-image: url('bg.jpg');
+	background-repeat:repeat-x;
+	
+}
+
+a:link {
+	color: #666666;
+}
+a:visited {
+	color: #666666;
+}
+a:hover {
+	color: #666666;
+}
+a:active {
+	color: #666666;
+}
+
+#wrapit {
+	width: 900px;
+	margin: 10px auto; /*Put a 10px margin above and below this container, and center it horizontally*/
+	padding: 10px 10px 10px 10px; /*Top, right, bottom, left padding.*/
+	border: 1px solid #666666;
+	background-color: #cccccc;
+}
+
+#header {
+	border: 1px solid black;
+	text-align: center;
+	background-color: #ffffff;
+	
+}
+
+.acpAdListing{
+	width: 500px; 
+	border: 1px solid #000000; 
+	background-color: 1px solid #FFFFFF; 
+	margin-left: 10px; 
+	padding-left: 10px; 
+	margin-bottom: 15px;
+}
+
+.acpDomainListing{
+	width: 500px; 
+	border: 1px solid #000000; 
+	background-color: 1px solid #FFFFFF; 
+	margin-left: 10px; 
+	padding-left: 10px; 
+	margin-bottom: 15px;
+}
+
+#adsbar {
+	border: 1px solid black;
+	text-align: center;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	margin-top:10px; 
+	margin-bottom:10px; 
+	background-color: #ffffff;
+	
+}
+
+.clearFloat{
+	clear:both;
+	margin: 0px;
+}
+.floatLeft{
+	float: left;
+}
+.floatRight{
+	float: right;
+}
+
+#timelogin {
+
+	border: 1px solid black;
+	padding-top: 6px;
+	padding-bottom: 26px;
+	padding-left: 4px;
+	margin-top:10px; 
+	margin-bottom:6px; 
+	background-color: #EAEAEA;
+	
+}
+
+#loginleft {
+
+	text-align: left;
+	float: left;
+	white-space: nowrap;
+	padding-top:2px;
+
+}
+
+#searchform {
+
+	text-align: right;
+	float: right;
+	padding-right: 2px;
+
+}
+
+#footlinks {
+
+	text-align: left;
+	float: left;
+	white-space: nowrap;
+	padding-top:2px;
+	padding-left:6px;
+
+}
+
+#copy {
+
+	text-align: right;
+	float: right;
+	padding-right: 6px;
+	padding-top:3px;
+
+}
+
+#leftbar {
+	border: 1px solid black;
+	text-align: left;
+	float: left;
+	width: 175px;
+	min-height: 330px;
+	background: #ffffff;
+	padding-bottom: 15px;
+}
+
+	
+#linksbar {
+	border: 1px solid black;
+	text-align: center;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	margin-top:4px; 
+	margin-bottom:8px; 
+	background-color: #ffffff;
+
+}
+
+#linksbar ul {
+	list-style: none;
+	border: none;
+	margin-left: 0px; 
+	padding-left: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	margin-bottom:0px;
+	white-space: nowrap;
+	display:inline;		
+	
+}
+
+#linksbar ul li {
+	border: none;
+	background-image: url('arrow.gif');
+    	background-repeat: no-repeat;
+    	background-position: 5px 2px; /*1 pixel from the left, and 2 pixels from the top of the element.*/
+    	padding-left: 25px !important; /*!important needs to be here to make this work*/
+	padding-right: 8px !important;
+	
+	display: inline; 	/*Note we are changing it from a block display style to inline*/
+	padding-bottom: 0px;
+	margin-bottom:0px;
+	
+}
+
+input.goright {
+display:inline;
+text-align:right;
+padding-left:30px;
+
+	
+}
+
+label.goright {
+display:inline;
+text-align:right;
+padding-left:30px;
+	
+}
+
+/* For putting an image in the header. */
+
+img.title{
+
+border:hidden;
+vertical-align:middle;
+
+}
+
+#sitecontent {
+	margin-left: 5px;
+	border: 1px solid black;
+	float: right;
+	width: 688px;
+	background: #FFFFFF;	
+	margin-bottom: 10px;
+	min-height: 330px;
+	padding-left:12px;
+	padding-right:12px;
+	padding-bottom: 15px;
+	
+}
+
+#footer {
+	clear: both;
+	border: 1px solid black;
+	margin-top:10px;
+	margin-bottom:0px;
+	padding-top:6px;
+	padding-bottom:26px;
+	font-size:.85em;
+	background-color: #E0E0E0;
+	white-space: nowrap;
+}
+
+
+h1.undertitle {
+
+text-decoration: underline;
+
+}
+
+p.home {
+
+padding-top: 0px;
+margin-top: 0px;
+
+}
+
+p.homeeasy {
+
+padding-top: 0px;
+margin-top: 0px;
+line-height: 2.5em;
+padding-bottom: 0px;
+margin-bottom: 0px;
+
+}
+
+
+p.partnertext {
+
+font-size=.9em;
+
+}
+
+p.easyread {
+
+line-height: 2.5em;
+padding-bottom: 0px;
+margin-bottom: 0px;
+
+}
+
+p.tinytext {
+
+font-size:.85em;
+
+}
+
+p.align {
+
+white-space: nowrap;
+margin: 0px;
+padding: 0px;
+
+}
+
+img.left{
+
+border:hidden;
+float:left;
+margin:6px;
+
+}
+
+img.right{
+
+border:hidden;
+float:right;
+margin: 6px;
+
+}
+
+img.borderless{
+
+border:hidden;
+
+}
+
+.tinyTip { 
+width: 325px; 
+padding: 17px 0px 0px 0px; 
+display: block; 
+background: url(../tinytips/top.png) 0px 0px no-repeat; }
+
+.tinyTip .content { 
+padding: 0px 15px 0px 15px; 
+font-size: 14px; font-family: "Lucida Sans Unicode"; 
+color: #010101;  
+background: url(../tinytips/content.jpg) 0px 0px repeat-y; 
+background-color: FFFFFF;
+}
+
+.tinyTip .bottom { 
+height: 47px; 
+background: url(../tinytips/bottom.png) 0px 0px no-repeat; 
+font: 0px/0px sans-serif; }
+
+.error {
+color: red;
+padding-left: 10px;
+padding-right: 4px;
+}
+
+#features {
+
+
+}
+
+#features ul {
+	list-style: none;
+	border: none;
+	margin-left: 0px; 
+	padding-left: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	margin-bottom:0px;
+	white-space: nowrap;
+	display:inline;		
+	
+}
+
+#features ul li {
+	border: none;
+	background-image: url('../icons/yes.gif');
+    	background-repeat: no-repeat;
+    	background-position: 5px 2px; /*1 pixel from the left, and 2 pixels from the top of the element.*/
+    	padding-left: 25px !important; /*!important needs to be here to make this work*/
+	padding-right: 8px !important;
+	padding-bottom: 0px;
+	margin-bottom:0px;
+	
+}
+
+h2.padme {
+
+padding: 4px;
+
+
+}
+
+p.padme {
+
+padding: 6px;
+font-size:.9em;
+
+}
+
+/* We need three of these mybbtiny entries so that the images work with the tooltip plugin */
+
+img.mybbtiny1 {
+
+border:hidden;
+text-align: center;
+padding: 8px;
+padding-left: 10px;
+
+}
+
+img.mybbtiny2 {
+
+border:hidden;
+text-align: center;
+padding: 8px;
+padding-left: 10px;
+
+}
+
+img.mybbtiny3 {
+
+border:hidden;
+text-align: center;
+padding: 8px;
+padding-left: 10px;
+
+}
+p.rightp {
+
+
+text-align: right;
+
+
+}
+
+img.cb{
+
+border:hidden;
+display: block;
+margin-left: auto;
+margin-right: auto }
+
+
+}
+

@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"> 
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"> 
+    
+<head>
+	  
+        <title>:BROWSERTITLE:</title>
+	  <link rel="stylesheet" type="text/css" href="templates/default/css.css" />
+	  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	  <script type="text/javascript" src="js/prototype.js"></script>
+	  <script type="text/javascript" src="js/scriptaculous.js"></script>
+	  :HEAD:
+
+</head>   
+	
+<body>
+		
+	<div id="wrapit">
+
+			<div id="header">
+				
+				<h1 class="title">:SITENAME:</h1>			
+			
+			</div>
+
+		
+
+			<div id="timelogin">
+			
+			<div id="loginleft">
+			:DATETIME: :: :TOPLOGIN:
+			</div>
+
+			<form action="search.php" method="post" style="margin:0;" onsubmit='return checksearch2();'>
+			<div id="searchform">
+				
+				<span id="erroricon"></span>
+				<label for="search" class="goright">Site Search:</label>
+				<input type="text" name="search" id="search" value="" />
+				<input type="submit" value="Search"/>
+				
+			</div>		
+			</form>
+
+			</div>
+
+			<div id="linksbar">
+		
+			
+				
+				<ul>
+				
+				:LINKSBAR:
+	
+				</ul>
+				
+
+			</div>
+		
+			<div id="leftbar" class="equal">
+	
+				<p style="margin-top: 12px; margin-left: 10px; margin-right: 10px;">This is some dummy content.  
+				You can edit this in the template.htm file.</p>
+			
+			</div>	
+
+			<div id="sitecontent" class="equal">
+			
+				<h2>:ARTICLETITLE:</h2>
+				
+			
+			:ARTICLECONTENT:
+		
+			</div>
+						
+			<div id="footer">	
+	
+				<div id="footlinks"><a href="">Home</a> :: <a href="create.php">Create a Forum</a> :: <a href="search.php">Search</a> :: <a href="rss.rss">RSS</a> :: <a href="tos.php">Terms of Service</a> :: <a href="privacy.php">Privacy Policy</a> :: <a href="contact.php">Contact Us</a></div>
+				<div id="copy"><a href="http://www.rusnakweb.com/forum/">Powered by the MyBB Multiforums Mod</a></div>
+
+			</div>
+				
+		</div>
+
+	</body>
+</html>
